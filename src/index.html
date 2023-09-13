@@ -1,25 +1,90 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarjeta de perfil</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarjeta de perfil
-    </title>
-    <link href="/dist/output.css" rel="stylesheet">
-</head>
-
-<body class="bg-slate-200 flex justify-center mt-20 h-screen items-center">
-  <div class="bg-white w-64 rounded-xl shadow-md pt-4 text-center h-[400px]">
-     <div class="inline-block relative  ">
-        <img class="rounded-full w-10 h-10" src="https://upload.wikimedia.org/wikipedia/en/0/03/Walter_White_S5B.png" alt="">
-        <div class="bg-green-600 rounded-full w-3 h-3 absolute right-0 top-7 ">
+  <body
+    class="bg-slate-200 flex justify-center mt-20 h-screen items-center font-haken"
+  >
+    <div
+      class="bg-white w-[350px] rounded-xl shadow-2xl pt-4 text-center h-[auto] relative"
+    >
+      <div class="absolute right-0 text-2xl mr-4 text-slate-300">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="1em"
+          viewBox="0 0 128 512"
+        >
+          <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+          <style>
+            svg {
+              fill: #b4b8c0;
+            }
+          </style>
+          <path
+            d="M64 360a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0-160a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM120 96A56 56 0 1 0 8 96a56 56 0 1 0 112 0z"
+          />
+        </svg>
+      </div>
+      <div class="inline-block relative mt-8">
+        <img
+          class="rounded-full w-[90px] h-[90px]"
+          src="https://upload.wikimedia.org/wikipedia/en/0/03/Walter_White_S5B.png"
+          alt=""
+        />
+        <div
+          class="bg-emerald-500 rounded-full w-5 h-5 absolute right-0 top-[68px] text-center border-none"
+        >
+          <span class="text-white font-extralight">✔</span>
         </div>
-      
-        <!-- n9.cl/7ywka -->
-     </div>
-     <h1 class=" text-gray-600 ">Walter White</h1>
-  </div>
-</body>
 
+        <!-- n9.cl/7ywka -->
+      </div>
+      <h1 class="text-gray-700 text-xl mt-4">Walter White</h1>
+      <p class="text-slate-500 text-[14px]">I am the danger</p>
+      <div class="flex justify-around mt-6 px-7">
+        <p class="text-slate-500 text-[14px]">Projects</p>
+        <p class="text-slate-500 text-[14px]">Following</p>
+        <p class="text-slate-500 text-[14px]">Followers</p>
+      </div>
+      <div class="flex justify-around px-7">
+        <h1 class="text-gray-800 text-x font-semibold">11</h1>
+        <h1 class="text-gray-800 text-x font-semibold">250</h1>
+        <h1 class="text-gray-800 text-x font-semibold">185</h1>
+      </div>
+      <div>
+        <p class="text-xs px-8 mt-5 text-slate-400">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dicta
+          harum est incidunt tempore iste impedit
+        </p>
+      </div>
+
+      <div class="flex mt-4 px-10 justify-center">
+         <img src="/src/icons/instagram-internet-media-svgrepo-com.svg" class="h-10 w-10 mx-2" alt="">
+         <img src="/src/icons/internet-media-network-15-svgrepo-com.svg" class="h-10 w-10 mx-2" alt="">
+         <img src="/src/icons/communication-facebook-interaction-svgrepo-com.svg" class="h-10 w-10 mx-2" alt="">
+         <img src="/src/icons/internet-linkedin-media-svgrepo-com.svg" class="h-10 w-10 mx-2" alt="">
+      </div>
+      <div class="my-8">
+        <button class="h-10 bg-blue-400 w-[200px] rounded-full text-white shadow-xl hover:bg-sky-600 hover:<transition >
+      
+        </transition>">View Perfile</button>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/625d43fca3.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
